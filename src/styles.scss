@@ -1,0 +1,44 @@
+.title {
+  color: #2C4251;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.controls {
+  margin: 1em;
+
+  input {
+    height: 26px;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #2C4251;
+    color: #EDF5FC;
+  }
+}
+
+.list {
+  list-style: none;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+
+  input {
+    margin: 10px;
+  }
+}
+
+.todoContent {
+  min-width: 300px;
+  text-align: center;
+  color: #2C4251;
+  border: 1px solid #2C4251;
+  padding: 3px;
+}
